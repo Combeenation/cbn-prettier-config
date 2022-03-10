@@ -8,6 +8,13 @@
     "package.json",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-prettier-config/issues"
+  },
   "author": "",
   "license": "Apache 2.0",
   "scripts": {
