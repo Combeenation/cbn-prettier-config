@@ -1,0 +1,26 @@
+{
+  "name": "@combeenation/prettier-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-prettier-config/issues"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "scripts": {
+    "pub-final": "npm publish",
+    "pub-alpha": "npm publish --tag alpha",
+    "pub-beta": "npm publish --tag beta",
+    "pub-rc": "npm publish --tag rc"
+  }
+}
