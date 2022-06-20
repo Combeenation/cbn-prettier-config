@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/prettier-config",
-  "version": "0.0.1",
+  "version": "0.0.2-rc1",
   "description": "",
   "main": ".prettierrc.js",
   "files": [
