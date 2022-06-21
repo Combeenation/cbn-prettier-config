@@ -1,10 +1,10 @@
 {
   "name": "@combeenation/prettier-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.json",
+  "main": ".prettierrc.js",
   "files": [
-    "index.json",
+    ".prettierrc.js",
     "package.json",
     "README.md"
   ],
@@ -22,5 +22,10 @@
     "pub-alpha": "npm publish --tag alpha",
     "pub-beta": "npm publish --tag beta",
     "pub-rc": "npm publish --tag rc"
+  },
+  "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "prettier": "^2.7.1"
   }
 }

@@ -32,3 +32,8 @@ module.exports = {
   semi: false,
 };
 ```
+
+### Import re-organization
+
+Comes with [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports) and therefore supports all customisation options of the plugin.
+Options `importOrderSeparation` & `importOrderSortSpecifiers` are set to `true` by default here.
