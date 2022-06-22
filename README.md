@@ -35,9 +35,9 @@ module.exports = {
 
 ### Included plugins
 
-This package with the following plugins pre-installed:
+This package comes with the following plugins pre-installed:
 
-* [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports)
+* [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports)  
   Options `importOrderSeparation` & `importOrderSortSpecifiers` are set to `true` by default here.
 * [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
 * [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
