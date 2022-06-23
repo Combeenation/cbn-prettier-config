@@ -33,7 +33,13 @@ module.exports = {
 };
 ```
 
-### Import re-organization
+### Included plugins
 
-Comes with [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports) and therefore supports all customisation options of the plugin.
-Options `importOrderSeparation` & `importOrderSortSpecifiers` are set to `true` by default here.
+This package comes with the following plugins pre-installed:
+
+* [@trivago/prettier-plugin-sort-imports](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports)  
+  Options `importOrderSeparation` & `importOrderSortSpecifiers` are set to `true` by default here.
+* [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
+* [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
+
+All options provided by those plugin can be adjusted using the method described above in section `Overwrite settings`.

@@ -1,31 +1,35 @@
 {
   "name": "@combeenation/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-prettier-config"
+  },
+  "license": "Apache 2.0",
+  "author": "",
   "main": ".prettierrc.js",
   "files": [
     ".prettierrc.js",
     "package.json",
     "README.md"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Combeenation/cbn-prettier-config"
-  },
-  "bugs": {
-    "url": "https://github.com/Combeenation/cbn-prettier-config/issues"
-  },
-  "author": "",
-  "license": "Apache 2.0",
   "scripts": {
-    "pub-final": "npm publish",
     "pub-alpha": "npm publish --tag alpha",
     "pub-beta": "npm publish --tag beta",
+    "pub-final": "npm publish",
     "pub-rc": "npm publish --tag rc"
   },
   "peerDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "imports-plugin": "npm:@trivago/prettier-plugin-sort-imports@^3.2.0",
+    "prettier": "^2.7.1",
     "prettier-plugin-packagejson": "^2.2.18",
-    "prettier": "^2.7.1"
+    "tailwind-plugin": "npm:prettier-plugin-tailwindcss@^0.1.11"
+  },
+  "peerDependenciesComments": {
+    "imports-plugin & tailwind-plugin": "We're using aliases to workaround a known issue with both plugins. See detailed info in `.prettierrc.js`"
   }
 }
