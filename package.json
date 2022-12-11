@@ -24,10 +24,10 @@
     "pub-rc": "npm publish --tag rc"
   },
   "peerDependencies": {
-    "imports-plugin": "npm:@trivago/prettier-plugin-sort-imports@^3.2.0",
-    "prettier": "^2.7.1",
-    "prettier-plugin-packagejson": "^2.2.18",
-    "tailwind-plugin": "npm:prettier-plugin-tailwindcss@^0.1.11"
+    "imports-plugin": "npm:@trivago/prettier-plugin-sort-imports@^4.0.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-packagejson": "^2.3.0",
+    "tailwind-plugin": "npm:prettier-plugin-tailwindcss@^0.2.1"
   },
   "peerDependenciesComments": {
     "imports-plugin & tailwind-plugin": "We're using aliases to workaround a known issue with both plugins. See detailed info in `.prettierrc.js`"
