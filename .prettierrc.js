@@ -2,6 +2,21 @@ const tailwindPlugin = require('tailwind-plugin');
 const importsPlugin = require('imports-plugin');
 
 /**
+ * Notes on formatting SVG:
+ *
+ * - We're using the official [XML Plugin](@prettier/plugin-xml) even though that yields some strange results (ATM).
+ *   See this ticket: https://github.com/prettier/plugin-xml/issues/648
+ * - Another option would be to use prettiers HTML parser for SVG files as well using prettiers `override` option as
+ *   explained [here](https://github.com/prettier/prettier/issues/5322#issuecomment-1276302630) but that had did not
+ *   really work out of the box neither for the following reasons:
+ *   - SVGs were not formatted when using the CLI with `npm run format`.
+ *     Reason: https://github.com/prettier/prettier/issues/11141
+ *   - Someone stated that the HTML parser is not really XML/SVG compliant but I don't know if this statement from 2020
+ *     is still true: https://github.com/prettier/prettier/issues/5322#issuecomment-620539554
+ *   - I wasn't able to use formatting manually from within VSCode with this approach 🤷‍♂️
+ */
+
+/**
  * Defining the plugins this way is a workaround as the tailwind & the imports plugin wouldn't work otherwise when
  * installed together.
  *
