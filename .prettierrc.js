@@ -44,6 +44,9 @@ module.exports = {
 
   plugins,
 
+  // Why we need this: https://github.com/prettier/plugin-xml/issues/648
+  xmlWhitespaceSensitivity: 'ignore',
+
   importOrderSeparation: false,
   importOrderSortSpecifiers: true,
 };
