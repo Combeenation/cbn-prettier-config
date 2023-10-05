@@ -41,5 +41,6 @@ This package comes with the following plugins pre-installed:
   Options `importOrderSeparation` & `importOrderSortSpecifiers` are set to `true` by default here.
 * [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
 * [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
+* [@prettier/plugin-xml](https://www.npmjs.com/package/@prettier/plugin-xml)
 
 All options provided by those plugin can be adjusted using the method described above in section `Overwrite settings`.
