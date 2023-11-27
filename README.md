@@ -6,7 +6,7 @@
 
 - Install:
   ```bash
-  $ npm i --dev @combeenation/prettier-config
+  $ npm i --save-dev @combeenation/prettier-config
   ```
 - Edit `package.json`:
   ```jsonc
