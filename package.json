@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "bugs": {
     "url": "https://github.com/Combeenation/cbn-prettier-config/issues"
@@ -24,10 +24,10 @@
     "pub-rc": "npm publish --tag rc"
   },
   "peerDependencies": {
-    "@prettier/plugin-xml": "^3.2.2",
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "prettier": "^3.1.0",
-    "prettier-plugin-packagejson": "^2.4.6",
-    "prettier-plugin-tailwindcss": "^0.5.7"
+    "@prettier/plugin-xml": "^3.4.2",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "prettier": "^3.6.2",
+    "prettier-plugin-packagejson": "^2.5.18",
+    "prettier-plugin-tailwindcss": "^0.6.14"
   }
 }
