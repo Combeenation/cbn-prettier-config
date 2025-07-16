@@ -11,11 +11,11 @@
   },
   "license": "Apache 2.0",
   "author": "",
-  "main": ".prettierrc.js",
+  "exports": "./index.js",
+  "type": "module",
   "files": [
-    ".prettierrc.js",
-    "package.json",
-    "README.md"
+    "index.js",
+    "package.json"
   ],
   "scripts": {
     "pub-alpha": "npm publish --tag alpha",
