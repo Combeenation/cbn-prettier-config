@@ -15,7 +15,8 @@
   "type": "module",
   "files": [
     "index.js",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "scripts": {
     "pub-alpha": "npm publish --tag alpha",
